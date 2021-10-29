@@ -19,4 +19,9 @@ public class DemoApplication {
 		return String.format("Hello %s!", name);
 	}
 
+	@GetMapping("/error")
+	public String error() {
+		return "This webpage does not exist";
+	}
+
 }
