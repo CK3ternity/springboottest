@@ -2,7 +2,18 @@
     <body>
         <h1>Hello World!</h1>
         <p>Sample text</p>
-        <textarea rows="1" cols="50">This is an area to type</textarea>
-        <button type="button" onclick="alert('Hello World!')">Test Button</button>
+        <form action="/demo/add" method="post" class="form-example">
+            <div class="form-example">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-example">
+              <label for="email">Enter your email: </label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-example">
+              <input type="submit" value="Subscribe!">
+            </div>
+          </form>
     </body>
 </html>
