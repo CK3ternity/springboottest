@@ -75,8 +75,6 @@
 					<artifactId>tomcat8-maven-plugin</artifactId>
 					<version>2.2</version>
 				</plugin>
-			</plugins>
-			<plugins>
 				<plugin>
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
